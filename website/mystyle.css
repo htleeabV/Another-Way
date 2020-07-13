@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+	color: black;
+	margin: 0 auto;
+	max-width: 700px;
+	background-color:EBE6DC;
+	background-image: url("image/bg.bmp");
+	background-size: contain;
+    background-repeat: repeat;
+}
+
+IMG.img-max{
+	width: 100%;
+	object-fit: myCarousel;
+}
+
+.Container{
+	background-color:#CBA57F;
+	padding:auto;
+	padding-top:20px;
+	padding-bottom:50px;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+navbar navbar-inverse{
+	background-color:#B1C9D3
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white; /*Change active text color here*/
+}
+
+.navbar-default {
+    background-color: #B1C9D3;
+    border-color: #A3C7C7;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #A3C7C7;
+}

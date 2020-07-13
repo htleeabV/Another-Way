@@ -1,0 +1,423 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Another Way</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+	<link rel="stylesheet" href="mystyle.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+
+<!-- 目录 -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">Another Way</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="information.html">游戏资讯</a></li>
+		<li><a href="background.html">游戏背景</a></li>
+        <li class="active"><a href="instruction.html">操作说明</a></li> 
+        <li><a href="download.html">下载</a></li> 
+        <li><a href="staff.html">制作人员</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="Container">
+<!-- 主要内容 -->
+	<h1>操作说明</h1>
+	<p>&nbsp;</p>
+	<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseOne">
+          标题界面
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <img class="img-responsive" src="image/instruction_home.jpg" alt="标题界面">
+		<!--table-->
+		<table class="table table-bordered">
+			<tbody>
+			  <tr>
+				<th scope="row">1776年</th>
+				<td>开启新档，从头开始游戏。游戏从1776年7月4日大陆会议发表美/国独立宣言开始。</td>
+			  </tr>
+			  <tr>
+				<th scope="row">历史纪录</th>
+				<td>读取旧档，从储存进度开始进行游戏。选择想要继续的游戏进度。</td>
+			  </tr>
+			  <tr>
+				<th scope="row">博物馆</th>
+				<td>欣赏游戏中经历过的事件、剧情、结局场景。</td>
+			  </tr>
+			  <tr>
+				<th scope="row">关于游戏</th>
+				<td>游戏基本资料及制作名单。</td>
+			  </tr>
+			  <tr>
+				<th scope="row">关闭游戏</th>
+				<td>结束游戏并关闭视窗。</td>
+			  </tr>
+			</tbody>
+</table>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseTwo">
+          游戏主界面
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <img class="img-responsive" src="image/instruction_game.jpg" alt="游戏主界面">
+		      <table class="table table-striped"><tbody>
+      <tr>
+        <td><p>1</p></td>
+        <td><p>行程</p></td>
+        <td><p>设置下一个月的行动及开始下一个月。</p></td>
+      </tr>
+      <tr>
+        <td><p>2</p></td>
+        <td><p>状态</p></td>
+        <td><p>显示现时属性，包括武力、智力、军纪、枪械、谈吐、健康、军备数量、粮食数量、金钱，以及疲劳度。</p></td>
+      </tr>
+      <tr>
+        <td><p>3</p></td>
+        <td><p>物品栏</p></td>
+        <td><p>列出现有道具，可使用道具或更换衣服。</p></td>
+      </tr>
+      <tr>
+        <td><p>4</p></td>
+        <td><p>购物</p></td>
+        <td><p>购买新道具或增加军备。</p></td>
+      </tr>
+      <tr>
+        <td><p>5</p></td>
+        <td><p>与上司对话</p></td>
+        <td><p>与上司华盛顿对话，对现况增加了解，间中会对角色有影响。</p></td>
+      </tr>
+      <tr>
+        <td><p>6</p></td>
+        <td><p>日记</p></td>
+        <td><p>存档读取。</p></td>
+      </tr>
+      <tr>
+        <td><p>7</p></td>
+        <td><p>设定</p></td>
+        <td><p>可设定音量，或回到标题界面。</p></td>
+      </tr>
+	  </tbody>
+    </table>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseThree">
+          行程安排
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+		<img class="img-responsive" src="image/instruction_schedule.jpg" alt="行程">
+		<table class="table table-striped"><tbody>
+      	<tr>
+			<td><p>1</p></td>
+			<td><p>行程选项</p></td>
+        	<td><p>点击进行程的活动选项，活动顺时序安排进行程表。每个选项会持续10日，每个月可安排3次活动。</p></td>
+      	</tr>
+      	<tr>
+			<td><p>2</p></td>
+			<td><p>行程表</p></td>
+			<td><p>已安排的活动。点击已选活动可撤消。</p></td>
+		</tr>
+      	<tr>
+			<td><p>3</p></td>
+			<td><p>撤回键</p></td>
+			<td><p>撤回所有已选活动。</p></td>
+      	</tr>
+		<tr>
+			<td><p>4</p></td>
+			<td><p>确认</p></td>
+			<td><p>确认行程并进入下一个月。</p></td>
+		</tr>
+		<tr>
+			<td><p>5</p></td>
+			<td><p>财政政策</p></td>
+			<td><p>可选维持现状或增发纸币。增发纸币可增加收入，但持续会引发通涨。</p></td>
+		</tr>
+		<tr>
+			<td><p>6</p></td>
+			<td><p>粮食方针</p></td>
+			<td><p>可选节约、一般或丰富。减少粮食会削弱健康，丰富的粮食会提高健康但增加粮食耗用量。当粮食不足时，自动转成节约。</p></td>
+		</tr>
+		</tbody>
+		</table>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseFour">
+          行程选项
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+		<img class="img-responsive" src="image/instruction_schedule.jpg" alt="行程选项">
+		以下是最基本的行程选项。在特定条件下触发的特殊选项不包括在内。
+		<table class="table table-striped"><tbody>
+      	<tr>
+			<td><p>战略课</p></td>
+        	<td><p>提升智力。</p></td>
+      	</tr>
+      	<tr>
+			<td><p>军纪课</p></td>
+			<td><p>提高军纪。</p></td>
+		</tr>
+      	<tr>
+			<td><p>射击课</p></td>
+			<td><p>提升使用枪械的技能。</p></td>
+      	</tr>
+		<tr>
+			<td><p>外交课</p></td>
+			<td><p>学习外交必备的社交礼仪，提高谈吐。</p></td>
+		</tr>
+		<tr>
+			<td><p>种植</p></td>
+			<td><p>提高粮草成长度。当成长度满时可收割，增加粮食储备。</p></td>
+		</tr>
+		<tr>
+			<td><p>赚钱</p></td>
+			<td><p>工作增加金钱收入。</p></td>
+		</tr>
+		<tr>
+			<td><p>休息</p></td>
+			<td><p>休息时间，自由活动，放松心情，降低疲劳度。</p></td>
+		</tr>
+		</tbody>
+		</table>
+      </div>
+    </div>
+  </div>
+  
+      <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseWorking">
+          进行行程
+        </a>
+      </h4>
+    </div>
+    <div id="collapseWorking" class="panel-collapse collapse">
+      <div class="panel-body">
+	  	<img class="img-responsive" src="image/instruction_working.jpg" alt="行程">
+		<table class="table table-responsive"><tbody>
+			<tr><td><p>1</p></td><td><p>显示当日日记。</p></td></tr>
+			<tr><td><p>2</p></td><td><p>显示行程进行状态。</p></td></tr>
+			<tr><td><p>3</p></td><td><p>显示受影响数据。</p></td></tr>
+		</tbody></table>
+      </div>
+    </div>
+  </div>
+  
+  
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseFive">
+          状态
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body">
+		<img class="img-responsive" src="image/instruction_attributes.jpg" alt="状态">
+		<table class="table table-striped"><tbody>
+      	<tr>
+			<td><p>体能</p></td>
+        	<td><p>表示身体的强度，初始值为950。越高战役中越大机会胜出。</p></td>
+      	</tr>
+      	<tr>
+			<td><p>智力</p></td>
+			<td><p>表示思考能力。数值越高，战术越优秀。</p></td>
+		</tr>
+      	<tr>
+			<td><p>军纪</p></td>
+			<td><p>表示对军队纪律的服从性。数值越高，战役中胜出机会越大。</p></td>
+      	</tr>
+		<tr>
+			<td><p>枪械</p></td>
+			<td><p>表示对枪械及各种武器的熟悉程度。数值越高，战役中胜出机会越大，而且对战役中的剧情有影响。</p></td>
+		</tr>
+		<tr>
+			<td><p>谈吐</p></td>
+			<td><p>表示外交礼仪及说服别人的能力。需一定的谈吐才能吸引外国支援。</p></td>
+		</tr>
+		<tr>
+			<td><p>健康</p></td>
+			<td><p>身体健康程度。过低时容易生病。</p></td>
+		</tr>
+		<tr>
+			<td><p>粮食数量</p></td>
+			<td><p>备用粮食数量。每月会视乎粮食方针耗用一定份量的粮食。</p></td>
+		</tr>
+		<tr>
+			<td><p>金钱</p></td>
+			<td><p>持有的金钱。可用于购买军备及道具。</p></td>
+		</tr>
+		<tr>
+			<td><p>疲劳度</p></td>
+			<td><p>身体疲累程度。数值过高时行动容易失败，而且容易生病。</p></td>
+		</tr>		
+		</tbody>
+		</table>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseSix">
+          物品栏
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse">
+      <div class="panel-body">
+		<img class="img-responsive" src="image/instruction_item.jpg" alt="物品栏">
+		显示现有物品及道具，可使用道具或更换衣服。
+		<table class="table table-responsive"><tbody>
+			<tr><td><p>1</p></td><td><p>选择道具。</p></td></tr>
+			<tr><td><p>2</p></td><td><p>道具说明。</p></td></tr>
+			<tr><td><p>3</p></td><td><p>使用方式。</p></td></tr>
+			<tr><td><p>4</p></td><td><p>退出，回到游戏界面。</p></td></tr>
+		</tbody></table>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseSeven">
+          购物
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse">
+      <div class="panel-body">
+	  	<img class="img-responsive" src="image/instruction_buying.jpg" alt="购物">
+			<p>购物，点选希望购买道具即可购买。</p>
+			<p>提示：军备很重要！括号里是军备的数量。</p>
+			<p>如果订货，军备会在3个月后才送到，但能省钱。</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseTalk">
+          与上司对话
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTalk" class="panel-collapse collapse">
+      <div class="panel-body">
+	  	<img class="img-responsive" src="image/instruction_talking.jpg" alt="对话">
+      </div>
+    </div>
+  </div>
+  
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseDiary">
+          存/读档
+        </a>
+      </h4>
+    </div>
+    <div id="collapseDiary" class="panel-collapse collapse">
+      <div class="panel-body">
+	  	<img class="img-responsive" src="image/instruction_saving.jpg" alt="存档">
+		<table class="table table-responsive"><tbody>
+			<tr><td><p>1</p></td><td><p>显示该档案游戏日记。选择档案位置，可点选空白位置开新档。最多可储存10个档案。</p></td></tr>
+			<tr><td><p>2</p></td><td><p>选择储存或读取。</p></td></tr>
+			<tr><td><p>3</p></td><td><p>退出，回到游戏界面。</p></td></tr>
+		</tbody></table>
+      </div>
+    </div>
+  </div>
+  
+     <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseSetting">
+          系统设定
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSetting" class="panel-collapse collapse">
+      <div class="panel-body">
+	  	<img class="img-responsive" src="image/instruction_setting.jpg" alt="设定">
+		<table class="table table-striped"><tbody>
+			<tr><td><p>1</p></td><td><p>对话显示速度</p></td><td><p>调节人物之间及剧情的显示速度。</p></td></tr>
+			<tr><td><p>2</p></td><td><p>行程显示速度</p></td><td><p>调节日常行程活动的显示速度。</p></td></tr>
+			<tr><td><p>3</p></td><td><p>音效音量</p></td><td><p>调节音乐特效的音量大小。</p></td></tr>
+			<tr><td><p>4</p></td><td><p>背景音量</p></td><td><p>调节背景音乐的音量大小。</p></td></tr>
+			<tr><td><p>5</p></td><td><p>返回</p></td><td><p>回到游戏界面。</p></td></tr>
+			<tr><td><p>6</p></td><td><p>返回主界面</p></td><td><p>退出游戏档案，到标题界面。</p></td></tr>
+		</tbody></table>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+	
+</div>
+<!--end main container-->
+
+
+
+</body>
+</html>
